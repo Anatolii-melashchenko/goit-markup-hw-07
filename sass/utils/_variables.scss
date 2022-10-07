@@ -1,0 +1,61 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --second-color: #757575;
+    --background-color: #2F303A;
+    --modal-btn-accent-color: #188CE8;
+    --logo-header: #000000;
+    --contact-footer-color: rgba(255, 255, 255, 0.6);
+    --filter-button-bg: #F5F4FA;
+    --main-light-color: #FFFFFF;
+    --border-bottom-portfolio-color: #EEEEEE;
+    --border-bottom-header-color: #ECECEC;
+    --icon-color: #AFB1B8;
+}
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+/* ================= COMPONENTS ================= */
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* ================= /COMPONENTS ================= */
