@@ -392,7 +392,7 @@ body {
   margin-bottom: 28px;
 }
 
-.privacy-wrapp {
+.privacy-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,11 +409,11 @@ body {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.privacy-input:checked + .privacy-wrapp {
+.privacy-input:checked + .privacy-wrap {
   border-color: transparent;
 }
 
-.privacy-input:checked + .privacy-wrapp .privacy-icon {
+.privacy-input:checked + .privacy-wrap .privacy-icon {
   opacity: 1;
 }
 
@@ -794,13 +794,13 @@ body {
 
 /* ================= /FOOTER ================= */
 /* ================= PORTFOLIO ================= */
-.porfolio-buttons-class {
+.portfolio-buttons-class {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.porfolio-lists {
+.portfolio-lists {
   display: flex;
   flex-wrap: wrap;
 }

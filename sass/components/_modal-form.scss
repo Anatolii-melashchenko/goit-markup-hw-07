@@ -88,7 +88,7 @@
     margin-bottom: 28px;
 }
 
-.privacy-wrapp {
+.privacy-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,11 +107,11 @@
 }
 
 
-.privacy-input:checked+.privacy-wrapp {
+.privacy-input:checked+.privacy-wrap {
     border-color: transparent;
 }
 
-.privacy-input:checked+.privacy-wrapp .privacy-icon {
+.privacy-input:checked+.privacy-wrap .privacy-icon {
     opacity: 1;
 }
 
