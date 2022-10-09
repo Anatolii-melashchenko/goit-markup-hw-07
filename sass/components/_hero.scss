@@ -46,13 +46,15 @@
     cursor: pointer;
     border: 0 solid transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    &:hover,&:focus {
+        background-color: var(--modal-btn-accent-color)
+    }
 
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-    background-color: var(--modal-btn-accent-color);
-}
+// .modal-btn:hover,
+// .modal-btn:focus {
+//     background-color: var(--modal-btn-accent-color);
+// }
 
 /* ================= /HERO ================= */
